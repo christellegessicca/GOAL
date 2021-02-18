@@ -59,6 +59,8 @@ router.post('/sign-up', (req, res, next) => {
 
 // SIGN IN
 // POST /sign-in
+// id 602d6c4b20d72d2456af8c15
+// token a7742099e076e87e931a40d32ae87045"
 router.post('/sign-in', (req, res, next) => {
   const pw = req.body.credentials.password
   let user
