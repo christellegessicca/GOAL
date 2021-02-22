@@ -1,4 +1,22 @@
-# Application Title: GOAL (GO OUT AND LIFT)
+# Application Title: GOAL (GO OUT AND LIVE)
+### Authentication:
+| Action | Method | Path |
+| ----------- | ----------- | ----------- |
+| Sign-Up | POST | /sign-up
+| Sign-In | POST  | /sign-in
+| Change-Password |  PATCH | /change-password
+| Sign-Out | DELETE | /delete
+
+
+### Items: (Token Required)
+| Routes | Method | Path |
+| ----------- | ----------- | ----------- |
+| Create | POST | /items
+| Index | GET | /items
+| Show | GET | /items/:id
+| Update | PATCH | /items/:id
+| Delete | DELETE | /items/:id
+
 
 
 
